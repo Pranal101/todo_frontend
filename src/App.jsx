@@ -1,8 +1,8 @@
 import {Route, BrowserRouter as Router, Routes} from "react-router-dom";
 import Header from "./components/Header";
 import Home from "./pages/Home"
-import Profile from "./pages/profile";
-import Login from "./pages/login";
+import Profile from "./pages/Profile";
+import Login from "./pages/Login";
 import Register from "./pages/Register"
 import { Toaster } from "react-hot-toast";
 import { useContext, useEffect } from "react";
